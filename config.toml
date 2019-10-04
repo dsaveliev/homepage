@@ -1,6 +1,6 @@
 ## Basic Configuration
-baseURL = "https://dsaveliev.github.io/"
 
+baseurl = "https://dsaveliev.github.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -78,18 +78,13 @@ toc = true
 displayrssicon = false
 
 ## Main Menu
-## [[menu.main]]
-##     name = "blog"
-##     weight = 100
-##     identifier = "blog"
-##     url = "/blog/"
 [[menu.main]]
     name = "about"
     identifier = "about"
-    weight = 200
+    weight = 100
     url = "/about/"
 [[menu.main]]
     name = "CV"
     identifier = "CV"
-    weight = 300
+    weight = 200
     url = "/cv.pdf"
