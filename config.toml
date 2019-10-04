@@ -1,0 +1,95 @@
+## Basic Configuration
+baseURL = "http://dsaveliev.github.io/"
+
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Dmitry Saveliev"
+title = "Dmitry Saveliev"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+## disqusShortname = "https-shenoybr-github-io-hugo-goa-demo"
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Dmitry Saveliev"
+intro = "Marvelous Backend Developer"
+description = "And the ships hung in the sky in much the same way that bricks don't."
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Dmitry Saveliev"
+keywords = "go,ruby,ror,postgresql,kubernetes,prometheus,developer,backend"
+
+## Social Accounts
+[params.social]
+github = "dsaveliev"
+## instagram = "<username>"
+## xing = "<username>"
+linkedin = "desaveliev"
+## twitter = "<username>"
+## facebook = "<username>"
+## google = "<username>"
+## googlescholar = "<account_id>"
+## stackoverflow = "<username>"
+## lastfm = "<username>"
+## goodreads = "<username>"
+## gitlab = "<username>"
+## bitbucket = "<username>"
+## fivehundredpx = "<username>"
+## flickr = "<username>"
+## foursquare = "<username>"
+## hackernews = "<username>"
+## kickstarter = "<username>"
+## patreon = "<username>"
+## pintrest = "<username>"
+## steam = "<username>"
+## reddit = "<username>"
+## snapchat = "<username>"
+## youtube = "<channelid>"
+## keybase = "<username>"
+## twitch = "<username>"
+## soundcloud = "<username>"
+## tumblr = "<username>"
+## strava = "<username>"
+skype = "live:d.e.saveliev"
+telegram = "Evghenjevich"
+## whatsapp = "<username>"
+email = "d.e.saveliev@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2019. Dmitry Saveliev. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = false
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+## [[menu.main]]
+##     name = "blog"
+##     weight = 100
+##     identifier = "blog"
+##     url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "CV"
+    identifier = "CV"
+    weight = 300
+    url = "/cv.pdf"
