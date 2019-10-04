@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseURL = "http://dsaveliev.github.io/"
+baseURL = "https://dsaveliev.github.io/"
 
 builddrafts = false
 canonifyurls = false
